@@ -126,3 +126,30 @@ export {};
 ```
 
 > typescript object type declaration [here!](https://developer-talk.tistory.com/192)
+
+---
+
+# Classes on Typescript part One
+
+```javascript
+class Human {
+  public name: string;
+  public age: number;
+  public gender: string;
+  constructor(name: string, age: number, gender: string) {
+    this.name = name;
+    this.age = age;
+    this.gender = gender;
+  }
+}
+
+const jay = new Human('jay', 18, 'male');
+
+const sayHi = (person: Human): string => {
+  return `Hello ${person.name}, you are ${person.age}, you are a ${person.gender}!`;
+};
+
+console.log(sayHi(jay));
+
+export {};
+```
