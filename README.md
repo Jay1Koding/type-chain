@@ -96,3 +96,7 @@ export {};
 ```
 
 ---
+
+# Interfaces on Typescript
+
+> typescript object type declaration [here!](https://developer-talk.tistory.com/192)
