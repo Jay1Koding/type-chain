@@ -8,14 +8,14 @@
     "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Jay1Koding/type-chain.git"
-  },
-  "author": "",
+  "repository": "git+https://github.com/Jay1Koding/type-chain.git",
+  "author": "jay1coding <jay1coding@gmail.com>",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Jay1Koding/type-chain/issues"
   },
-  "homepage": "https://github.com/Jay1Koding/type-chain#readme"
+  "homepage": "https://github.com/Jay1Koding/type-chain#readme",
+  "dependencies": {
+    "typescript": "^4.6.3"
+  }
 }

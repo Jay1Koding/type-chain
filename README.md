@@ -32,3 +32,22 @@
   }
 
 ```
+
+---
+
+### First steps with Typescript
+
+```javascript
+const name = 'jay',
+  age = 29,
+  gender = 'male';
+
+const sayHi = (name, age, gender?) => {
+  // gender는 optional이 됨
+  console.log(`hello ${name} you are ${age} ${gender}`);
+};
+
+sayHi(name, age);
+
+export {}; // 빠가나면 이거 해줘야함
+```
