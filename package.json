@@ -1,0 +1,21 @@
+{
+  "name": "type-chain",
+  "version": "1.0.0",
+  "description": "cloning nomadcoder's type-chain",
+  "main": "index.js",
+  "scripts": {
+    "prestart": "tsc",
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jay1Koding/type-chain.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jay1Koding/type-chain/issues"
+  },
+  "homepage": "https://github.com/Jay1Koding/type-chain#readme"
+}
