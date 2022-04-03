@@ -35,7 +35,7 @@
 
 ---
 
-### First steps with Typescript
+# First steps with Typescript
 
 ```javascript
 const name = 'jay',
@@ -51,3 +51,48 @@ sayHi(name, age);
 
 export {}; // 빠가나면 이거 해줘야함
 ```
+
+---
+
+# Types in Typescript
+
+```javascript
+const name = 'jay',
+  age = 29,
+  gender = 'male';
+
+const sayHi = (name: string, age: number, gender?: string): string => {
+  return `hello ${name} you are ${age} ${gender}`;
+};
+
+console.log(sayHi(name, age));
+
+export {};
+```
+
+🤬 every time i type 'npm start' ?????????????????????????
+
+> npm i -g tsc-watch
+
+```json
+// package.json
+"scripts": {
+    "start": "tsc-watch --onSuccess \"node dist/index.js\" ",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+
+// tsconfig.json
+{
+  "compilerOptions": {
+    "target": "ES2015",
+    "module": "commonjs",
+    "outDir": "dist",
+    "sourceMap": true,
+    "strict": true
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules"]
+}
+```
+
+---
